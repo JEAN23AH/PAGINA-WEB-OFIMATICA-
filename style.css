@@ -1051,3 +1051,41 @@ button {
     align-items: center;
     gap: 8px;
 }
+/* FORZAR POSICIÓN SUPERIOR ABSOLUTA PARA LA PÁGINA DE CONFIGURACIÓN */
+.main-content {
+    position: absolute;
+    top: 0;
+    left: 250px;
+    right: 0;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 0 !important;
+}
+
+/* CONTENEDOR RECTILÍNEO DE TARJETAS */
+.config-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+    max-width: 900px;
+}
+
+/* tamaño de logo*/
+.sidebar-logo {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+/* borde de tarjetas */
+.software-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 20px;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 10px; 
+}
